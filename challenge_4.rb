@@ -11,9 +11,9 @@
 
 verbs = ["jumping", "run", "skipping", "eat", "playing"]
 
-# verbs.each do |verb|
-#     puts verb if verb.include?("ing")
-# end 
+verbs.each do |verb|
+    puts verb if verb.include?("ing")
+end 
 
 # Refactor
 
