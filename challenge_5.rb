@@ -5,6 +5,12 @@
 
 # Pseudocode:
 # 1. Put the elements in alphabetical order using a method --sort
-# 2. Run through each element of the array
-# 3. Print a sentence for each element
+# 2. Run through each element of the array--each
+# 3. Print a sentence for each element--string interpolation
 
+verbs = ["jump", "run", "skip", "eat", "play"]
+
+verbs.sort!
+verbs.each do |verb|
+    puts "The next thing I want to do is #{verb}."
+end 
