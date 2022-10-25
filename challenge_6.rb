@@ -13,7 +13,7 @@ sentence.split.each do |sent|
     print "#{sent.capitalize} "
 end 
 
-# OR
+# Refactor
 
 sentence = "turing is the best!"
 array_words = sentence.split
