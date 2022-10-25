@@ -15,3 +15,12 @@ verbs.sort!
 verbs.each do |verb|
     puts "The next thing I want to do is #{verb}."
 end 
+
+# Refactor
+
+verbs = ["jump", "run", "skip", "eat", "play"]
+
+alphabetical_verbs = verbs.sort
+alphabetical_verbs.each do |alphabetical_verb|
+    puts "The next thing I want to do is #{alphabetical_verb}."
+end 
