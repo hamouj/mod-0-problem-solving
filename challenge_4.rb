@@ -11,7 +11,16 @@
 
 verbs = ["jumping", "run", "skipping", "eat", "playing"]
 
-verbs.each do |verb|
+# verbs.each do |verb|
+#     puts verb if verb.include?("ing")
+# end 
+
+# Refactor
+
+def find_ing(verb)
     puts verb if verb.include?("ing")
 end 
 
+verbs.each do |verb|
+    print find_ing(verb)
+end 
